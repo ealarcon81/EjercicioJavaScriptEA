@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+/*
+
+Una institución benéfica recibe anualmente una donación proveniente de europa y lo
+reparte entre un centro de salud, un comedor de niños y una parte lo invierte en la
+bolsa de acuerdo a lo siguiente:
+· Si el monto de la donación es de $10000 o más: 30% se destina al centro de
+salud, 50% al comedor de niños y el resto se invierte en la bolsa.
+· Si el monto de la donación es menor que $10000: 25% se destina al centro de
+salud, 60% al comedor de niños y el resto se invierte en la bolsa.
+La institución desea saber cuanto de dinero destinará a cada rubro anualmente.
+
+
+*/
+let salud
+let comedor
+let bolsa
+let dona 
+dona = prompt("ingresar donacion")
+if (dona >= 10000) {salud = 0.3*dona
+                    comedor = 0.5*dona
+                    bolsa = 0.2*dona}
+else {salud = 0.25*dona
+      comedor= 0.6*dona
+      bolsa= 0.15*dona}
+
+document.write("El centro de salud recibe: " + salud);
+document.write("<br>");
+document.write("El comedor de salud recibe: " + comedor);
+document.write("<br>");
+document.write("Se invierte en la bolsa: " + bolsa);
+document.write("<br>");
+    //declarar variables
+
+
+    //ingreso datos
+
+
+
+    //procesamiento
+
+
+</script>
+
+
+<body>
+
+</body>
+</html>
